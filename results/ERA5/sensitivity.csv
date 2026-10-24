@@ -1,0 +1,67 @@
+city,factor,value,SCR_total,metric2_name,metric2,metric3_name,metric3
+Jodhpur,PV kWp,24.8,0.41908,psi_solar,0.23172,export_fraction,-0.00000
+Jodhpur,PV kWp,37.2,0.60557,psi_solar,0.22925,export_fraction,0.02551
+Jodhpur,PV kWp,49.6,0.71778,psi_solar,0.22868,export_fraction,0.12917
+Jodhpur,PV kWp,62.0,0.77760,psi_solar,0.22893,export_fraction,0.24359
+Jodhpur,PV kWp,74.4,0.81279,psi_solar,0.22934,export_fraction,0.34037
+Jodhpur,Battery kWh,0.0,0.47228,psi_solar,0.23345,export_kWh,30078.9
+Jodhpur,Battery kWh,46.6,0.61717,psi_solar,0.23042,export_kWh,17470.5
+Jodhpur,Battery kWh,93.2,0.71778,psi_solar,0.22868,export_kWh,8828.6
+Jodhpur,Battery kWh,139.8,0.76522,psi_solar,0.22796,export_kWh,4791.3
+Jodhpur,Battery kWh,186.4,0.76855,psi_solar,0.22800,export_kWh,4552.8
+Jodhpur,Irradiance scale,0.80,0.62776,psi_PV,0.24420,specific_yield,1151.2
+Jodhpur,Irradiance scale,0.90,0.67794,psi_PV,0.24510,specific_yield,1301.0
+Jodhpur,Irradiance scale,1.00,0.71778,psi_PV,0.24558,specific_yield,1449.6
+Jodhpur,Irradiance scale,1.10,0.74802,psi_PV,0.24575,specific_yield,1596.8
+Jodhpur,Irradiance scale,1.20,0.77164,psi_PV,0.24568,specific_yield,1742.6
+Jodhpur,Irradiance scale,1.30,0.79052,psi_PV,0.24543,specific_yield,1887.0
+Jodhpur,Tc model NOCT vs balance,0,NaN,yield_change_pct,-2.173,Tc_noct_minus_balance,7.141
+Jodhpur,Battery R x3,3,0.71579,Ex_dest_batt_kWh,427.1,Ex_dest_batt_base_kWh,142.0
+Jodhpur,EV profile public,1,0.71778,SCR_direct,0.47228,NPV_lakh,-25.19
+Jodhpur,EV profile workplace,2,0.70114,SCR_direct,0.44304,NPV_lakh,-25.63
+Jodhpur,EV profile residential,3,0.58796,SCR_direct,0.29173,NPV_lakh,-28.52
+Jodhpur,EV profile synthetic,4,0.76686,SCR_direct,0.57700,NPV_lakh,-23.86
+Bengaluru,PV kWp,24.8,0.46915,psi_solar,0.23418,export_fraction,0.00000
+Bengaluru,PV kWp,37.2,0.67052,psi_solar,0.23159,export_fraction,0.03548
+Bengaluru,PV kWp,49.6,0.76622,psi_solar,0.23156,export_fraction,0.17016
+Bengaluru,PV kWp,62.0,0.80740,psi_solar,0.23215,export_fraction,0.29961
+Bengaluru,PV kWp,74.4,0.82699,psi_solar,0.23275,export_fraction,0.40193
+Bengaluru,Battery kWh,0.0,0.48309,psi_solar,0.23658,export_kWh,37589.6
+Bengaluru,Battery kWh,46.6,0.63739,psi_solar,0.23363,export_kWh,24148.4
+Bengaluru,Battery kWh,93.2,0.76622,psi_solar,0.23156,export_kWh,13057.0
+Bengaluru,Battery kWh,139.8,0.85169,psi_solar,0.23030,export_kWh,5740.1
+Bengaluru,Battery kWh,186.4,0.85830,psi_solar,0.23032,export_kWh,5229.8
+Bengaluru,Irradiance scale,0.80,0.69256,psi_PV,0.24811,specific_yield,1295.7
+Bengaluru,Irradiance scale,0.90,0.73642,psi_PV,0.24869,specific_yield,1462.4
+Bengaluru,Irradiance scale,1.00,0.76622,psi_PV,0.24887,specific_yield,1627.5
+Bengaluru,Irradiance scale,1.10,0.78774,psi_PV,0.24877,specific_yield,1790.8
+Bengaluru,Irradiance scale,1.20,0.80407,psi_PV,0.24845,specific_yield,1952.4
+Bengaluru,Irradiance scale,1.30,0.81603,psi_PV,0.24795,specific_yield,2112.2
+Bengaluru,Tc model NOCT vs balance,0,NaN,yield_change_pct,-2.309,Tc_noct_minus_balance,7.689
+Bengaluru,Battery R x3,3,0.76399,Ex_dest_batt_kWh,546.9,Ex_dest_batt_base_kWh,181.8
+Bengaluru,EV profile public,1,0.76622,SCR_direct,0.48309,NPV_lakh,-31.01
+Bengaluru,EV profile workplace,2,0.73879,SCR_direct,0.44809,NPV_lakh,-31.37
+Bengaluru,EV profile residential,3,0.60035,SCR_direct,0.28727,NPV_lakh,-33.14
+Bengaluru,EV profile synthetic,4,0.84560,SCR_direct,0.59627,NPV_lakh,-29.95
+Guwahati,PV kWp,24.8,0.33962,psi_solar,0.23612,export_fraction,0.00000
+Guwahati,PV kWp,37.2,0.50015,psi_solar,0.23373,export_fraction,0.00765
+Guwahati,PV kWp,49.6,0.61710,psi_solar,0.23254,export_fraction,0.07549
+Guwahati,PV kWp,62.0,0.69597,psi_solar,0.23225,export_fraction,0.16270
+Guwahati,PV kWp,74.4,0.74628,psi_solar,0.23240,export_fraction,0.25023
+Guwahati,Battery kWh,0.0,0.42891,psi_solar,0.23708,export_kWh,20434.7
+Guwahati,Battery kWh,46.6,0.55269,psi_solar,0.23390,export_kWh,9682.5
+Guwahati,Battery kWh,93.2,0.61710,psi_solar,0.23254,export_kWh,4166.2
+Guwahati,Battery kWh,139.8,0.65054,psi_solar,0.23190,export_kWh,1326.2
+Guwahati,Battery kWh,186.4,0.65545,psi_solar,0.23188,export_kWh,941.2
+Guwahati,Irradiance scale,0.80,0.52144,psi_PV,0.24720,specific_yield,926.2
+Guwahati,Irradiance scale,0.90,0.57263,psi_PV,0.24854,specific_yield,1048.8
+Guwahati,Irradiance scale,1.00,0.61710,psi_PV,0.24941,specific_yield,1170.5
+Guwahati,Irradiance scale,1.10,0.65528,psi_PV,0.24991,specific_yield,1291.4
+Guwahati,Irradiance scale,1.20,0.68707,psi_PV,0.25014,specific_yield,1411.2
+Guwahati,Irradiance scale,1.30,0.71369,psi_PV,0.25015,specific_yield,1530.0
+Guwahati,Tc model NOCT vs balance,0,NaN,yield_change_pct,-1.428,Tc_noct_minus_balance,4.755
+Guwahati,Battery R x3,3,0.61551,Ex_dest_batt_kWh,291.1,Ex_dest_batt_base_kWh,97.1
+Guwahati,EV profile public,1,0.61710,SCR_direct,0.42891,NPV_lakh,-17.70
+Guwahati,EV profile workplace,2,0.59783,SCR_direct,0.38792,NPV_lakh,-18.66
+Guwahati,EV profile residential,3,0.52482,SCR_direct,0.25083,NPV_lakh,-22.24
+Guwahati,EV profile synthetic,4,0.65530,SCR_direct,0.52698,NPV_lakh,-15.78

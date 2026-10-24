@@ -1,0 +1,59 @@
+Weather source: NASA POWER 2021-2023 | EV profile: public
+Monte Carlo: 200 draws x 3 cities ..........
+=== STATION: 49.6 kWp (80 x 620 W, 216 m2), 93.2 kWh LFP (333 V), EV 222 kWh/day ===
+Cell-temperature model calibrated to NOCT: h_free = 5.55 W/m2K
+
+--- Jodhpur (NASA POWER 2021-2023 mean) ---
+POA irradiation 2076 kWh/m2 | mean Ta 26.7 C | energy-weighted Tc 42.1 C (max 67.1)
+Specific yield 1883 kWh/kWp | PR 0.863 | low-light loss 1.5 % | temperature loss 5.0 %
+Sunlight exergy content 0.839 (diffuse share 37.1 %) | psi_PV by season [24.64 24.52 25.45 24.52]
+eta_PV 20.83 % | psi_PV 24.83 % | eta_solar 19.41 % | psi_solar 23.14 % | psi_sys 26.4 %
+SCR direct 49.8 % | SCR total 79.7 % | grid dependency 20.3 % | export 22503 kWh
+Ex destroyed [kWh/yr]: PV 282838 (opt 47103, heat 9325, internal 226411) | wiring 1868 | inverter 2746 | PCS 1527 | battery 209
+Battery: 268 EFC/yr, SOH after 1 yr 0.9871, max Tb rise 6.5 K
+LCOE 7.14 INR/kWh vs tariff 6.00 | NPV -17.0 lakh | payback 18.5 yr | CO2 avoided 61.8 t/yr
+PV-only: LCOE 3.48 INR/kWh | NPV 8.0 lakh | payback 7.7 yr | SCR 49.8 %
+  2021: POA 2086 | SCR 79.6 % | psi_PV 24.77 % | NPV -17.0 lakh
+  2022: POA 2110 | SCR 80.4 % | psi_PV 24.74 % | NPV -16.4 lakh
+  2023: POA 2030 | SCR 80.2 % | psi_PV 24.99 % | NPV -17.5 lakh
+  EV profile (SCR %): [79.7 77.2 61.4 89.9]
+  MC 5/50/95: SCR 78.7/79.9/81.2 % | psi_PV 24.14/24.91/25.55 % | NPV -26.9/-20.6/-14.8 lakh
+  P(psi monsoon > winter) 1.00 | P(NPV > 0) 0.00
+
+--- Bengaluru (NASA POWER 2021-2023 mean) ---
+POA irradiation 1745 kWh/m2 | mean Ta 23.5 C | energy-weighted Tc 36.1 C (max 57.8)
+Specific yield 1591 kWh/kWp | PR 0.867 | low-light loss 2.2 % | temperature loss 3.2 %
+Sunlight exergy content 0.808 (diffuse share 51.6 %) | psi_PV by season [25.26 25.34 26.94 26.56]
+eta_PV 20.94 % | psi_PV 25.92 % | eta_solar 19.51 % | psi_solar 24.15 % | psi_sys 29.0 %
+SCR direct 48.5 % | SCR total 74.3 % | grid dependency 25.7 % | export 13382 kWh
+Ex destroyed [kWh/yr]: PV 225632 (opt 39589, heat 6224, internal 179819) | wiring 1579 | inverter 2321 | PCS 1314 | battery 164
+Battery: 231 EFC/yr, SOH after 1 yr 0.9906, max Tb rise 6.3 K
+LCOE 8.45 INR/kWh vs tariff 4.50 | NPV -31.8 lakh | payback Inf yr | CO2 avoided 52.2 t/yr
+PV-only: LCOE 4.12 INR/kWh | NPV -2.5 lakh | payback 12.4 yr | SCR 48.5 %
+  2021: POA 1703 | SCR 73.5 % | psi_PV 25.99 % | NPV -32.4 lakh
+  2022: POA 1704 | SCR 73.3 % | psi_PV 26.02 % | NPV -32.4 lakh
+  2023: POA 1826 | SCR 76.8 % | psi_PV 25.75 % | NPV -30.4 lakh
+  EV profile (SCR %): [74.3 71.9 59.1 81.4]
+  MC 5/50/95: SCR 71.5/74.3/78.0 % | psi_PV 25.24/26.02/26.69 % | NPV -42.2/-35.3/-29.6 lakh
+  P(psi monsoon > winter) 1.00 | P(NPV > 0) 0.00
+
+--- Guwahati (NASA POWER 2021-2023 mean) ---
+POA irradiation 1662 kWh/m2 | mean Ta 23.1 C | energy-weighted Tc 37.9 C (max 62.5)
+Specific yield 1508 kWh/kWp | PR 0.862 | low-light loss 2.4 % | temperature loss 3.8 %
+Sunlight exergy content 0.814 (diffuse share 48.4 %) | psi_PV by season [25.21 25.83 26.17 24.78]
+eta_PV 20.82 % | psi_PV 25.57 % | eta_solar 19.39 % | psi_solar 23.81 % | psi_sys 29.6 %
+SCR direct 45.0 % | SCR total 70.4 % | grid dependency 29.6 % | export 12653 kWh
+Ex destroyed [kWh/yr]: PV 217785 (opt 37620, heat 7650, internal 172515) | wiring 1496 | inverter 2199 | PCS 1296 | battery 162
+Battery: 227 EFC/yr, SOH after 1 yr 0.9912, max Tb rise 6.9 K
+LCOE 8.92 INR/kWh vs tariff 8.72 | NPV -8.8 lakh | payback 12.8 yr | CO2 avoided 49.5 t/yr
+PV-only: LCOE 4.34 INR/kWh | NPV 11.6 lakh | payback 7.0 yr | SCR 45.0 %
+  2021: POA 1669 | SCR 70.9 % | psi_PV 25.65 % | NPV -8.5 lakh
+  2022: POA 1605 | SCR 68.7 % | psi_PV 25.52 % | NPV -10.4 lakh
+  2023: POA 1714 | SCR 72.1 % | psi_PV 25.53 % | NPV -7.3 lakh
+  EV profile (SCR %): [70.4 66.7 55 78.6]
+  MC 5/50/95: SCR 67.4/70.8/73.2 % | psi_PV 24.92/25.66/26.26 % | NPV -19.0/-12.6/-6.3 lakh
+  P(psi monsoon > winter) 1.00 | P(NPV > 0) 0.00
+
+P(coverage J>B>G) 1.00 | P(psi_J < psi_B) 1.00 | P(psi_J < psi_G) 1.00 | P(Guwahati best NPV) 1.00
+
+Done. Tables in /home/claude/final/results/NASAPOWER, figures in /home/claude/final/figures/NASAPOWER.

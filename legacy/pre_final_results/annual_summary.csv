@@ -1,0 +1,54 @@
+metric,Jodhpur,Bengaluru,Guwahati
+"POA irradiation [kWh/m2]",1597.63,1773.62,1299.69
+"Mean ambient T [C]",25.872,23.2192,24.2179
+"Energy-weighted cell T [C]",37.8633,34.9928,35.0308
+"Max cell T [C]",59.432,52.6961,52.4194
+"Specific yield [kWh/kWp]",1486.66,1660.76,1215.56
+"Performance ratio [-]",0.884577,0.890111,0.889069
+"Temperature loss [%]",3.74765,2.91195,2.90436
+"eta_PV [%]",21.3587,21.4923,21.4672
+"psi_PV [%]",22.9666,23.0887,23.0673
+"eta_solar chain [%]",19.9966,20.0651,20.1502
+"psi_solar chain [%]",21.502,21.5556,21.6522
+"psi_system incl grid [%]",25.5521,23.9404,28.7352
+"EV demand [kWh]",81030,81030,81030
+"PV AC output [kWh]",70095.9,78304.5,57313.5
+"PV->EV [kWh]",48068.3,49595.7,44442.8
+"Battery->EV [kWh]",15495,20247.9,10609.3
+"Grid import [kWh]",17466.7,11186.4,25978
+"Grid export [kWh]",5510.17,7094.14,1578.43
+"SCR direct [%]",59.3216,61.2066,54.8473
+"SCR total [%]",78.4441,86.1948,67.9403
+"Grid dependency [%]",21.5559,13.8052,32.0597
+"Self-consumption [%]",92.1391,90.9403,97.246
+"Ex in (solar) [kWh]",321068,356771,261374
+"Ex dest PV total [kWh]",247330,274397,201082
+"  PV optical [kWh]",41708.8,47093.7,34784
+"  PV heat rejection [kWh]",5540.18,6887.43,4459.64
+"  PV internal [kWh]",200081,220416,161839
+"Ex dest wiring [kWh]",1474.77,1647.48,1205.84
+"Ex dest inverter [kWh]",2167.91,2421.79,1772.58
+"Ex dest PCS [kWh]",974.747,1274.66,666.893
+"Ex dest battery [kWh]",85.0398,125.988,53.5058
+"PV share of Ex dest [%]",98.1342,98.0455,98.1938
+"Battery EFC [-]",171.426,224.01,117.374
+"Battery SOH end yr1 [-]",0.992276,0.991768,0.995008
+"Max battery T rise [K]",7.4093,5.17556,4.94176
+"Battery S_gen [kJ/K]",1010.72,1520.02,638.429
+"Seasonal CoV of monthly SCR [-]",0.235734,0.142896,0.245644
+"Tariff [INR/kWh]",6,4.5,8.72
+"LCOE system [INR/kWh]",8.99694,8.0773,10.9738
+"LCOE PV-only [INR/kWh]",4.40626,3.94435,5.38896
+"NPV [lakh INR]",-22.8863,-29.2678,-13.9915
+"Simple payback [yr]",21.9512,Inf,17.0548
+"PV-only: LCOE [INR/kWh]",4.40626,3.94435,5.38896
+"PV-only: NPV [lakh INR]",4.67185,0.0457219,12.0086
+"PV-only: simple payback [yr]",8.55427,10.0264,6.93837
+"PV-only: SCR [%]",59.3216,61.2066,54.8473
+"Grid-only cost [lakh INR/yr]",4.8618,3.64635,7.06582
+"Station grid cost net [lakh INR/yr]",0.882699,0.290563,2.21793
+"Grid-only CO2 [t/yr]",57.5313,57.5313,57.5313
+"Station CO2 [t/yr]",12.4014,7.94234,18.4444
+"CO2 avoided [t/yr]",49.0421,54.6258,40.2076
+"Max hourly energy residual [kWh]",5.68434e-14,5.68434e-14,5.68434e-14
+"Max hourly exergy residual [kWh]",5.68434e-14,5.68434e-14,5.68434e-14

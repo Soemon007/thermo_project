@@ -1,0 +1,37 @@
+=== STATION: 49.6 kWp (80 x 620 W, 216 m2), 93.2 kWh LFP (333 V), EV 222 kWh/day ===
+Cell-temperature model calibrated to NOCT: h_free = 5.55 W/m2K
+
+--- Jodhpur ---
+POA irradiation 1598 kWh/m2 | mean Ta 25.9 C | energy-weighted Tc 37.9 C (max 59.4)
+Specific yield 1487 kWh/kWp | PR 0.885 | temperature loss 3.7 %
+eta_PV 21.36 % | psi_PV 22.97 % | eta_solar 20.00 % | psi_solar 21.50 % | psi_sys 25.6 %
+SCR direct 59.3 % | SCR total 78.4 % | grid dependency 21.6 % | export 5510 kWh
+Ex destroyed [kWh]: PV 247330 (opt 41709, heat 5540, internal 200081) | wiring 1475 | inverter 2168 | PCS 975 | battery 85
+Battery: 171 EFC, SOH 0.9923, max Tb rise 7.4 K, S_gen 1011 kJ/K
+Closure residuals: energy 5.7e-14, exergy 5.7e-14 kWh
+LCOE 9.00 INR/kWh vs tariff 6.00 | NPV -22.9 lakh | payback 22.0 yr | CO2 avoided 49.0 t/yr
+PV-only (no battery): LCOE 4.41 INR/kWh | NPV 4.7 lakh | payback 8.6 yr | SCR 59.3 %
+
+--- Bengaluru ---
+POA irradiation 1774 kWh/m2 | mean Ta 23.2 C | energy-weighted Tc 35.0 C (max 52.7)
+Specific yield 1661 kWh/kWp | PR 0.890 | temperature loss 2.9 %
+eta_PV 21.49 % | psi_PV 23.09 % | eta_solar 20.07 % | psi_solar 21.56 % | psi_sys 23.9 %
+SCR direct 61.2 % | SCR total 86.2 % | grid dependency 13.8 % | export 7094 kWh
+Ex destroyed [kWh]: PV 274397 (opt 47094, heat 6887, internal 220416) | wiring 1647 | inverter 2422 | PCS 1275 | battery 126
+Battery: 224 EFC, SOH 0.9918, max Tb rise 5.2 K, S_gen 1520 kJ/K
+Closure residuals: energy 5.7e-14, exergy 5.7e-14 kWh
+LCOE 8.08 INR/kWh vs tariff 4.50 | NPV -29.3 lakh | payback Inf yr | CO2 avoided 54.6 t/yr
+PV-only (no battery): LCOE 3.94 INR/kWh | NPV 0.0 lakh | payback 10.0 yr | SCR 61.2 %
+
+--- Guwahati ---
+POA irradiation 1300 kWh/m2 | mean Ta 24.2 C | energy-weighted Tc 35.0 C (max 52.4)
+Specific yield 1216 kWh/kWp | PR 0.889 | temperature loss 2.9 %
+eta_PV 21.47 % | psi_PV 23.07 % | eta_solar 20.15 % | psi_solar 21.65 % | psi_sys 28.7 %
+SCR direct 54.8 % | SCR total 67.9 % | grid dependency 32.1 % | export 1578 kWh
+Ex destroyed [kWh]: PV 201082 (opt 34784, heat 4460, internal 161839) | wiring 1206 | inverter 1773 | PCS 667 | battery 54
+Battery: 117 EFC, SOH 0.9950, max Tb rise 4.9 K, S_gen 638 kJ/K
+Closure residuals: energy 5.7e-14, exergy 5.7e-14 kWh
+LCOE 10.97 INR/kWh vs tariff 8.72 | NPV -14.0 lakh | payback 17.1 yr | CO2 avoided 40.2 t/yr
+PV-only (no battery): LCOE 5.39 INR/kWh | NPV 12.0 lakh | payback 6.9 yr | SCR 54.8 %
+
+Done. Tables in results/, figures in figures/.

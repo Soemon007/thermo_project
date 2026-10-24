@@ -1,0 +1,44 @@
+Weather source: PVGIS-ERA5 2023 | EV profile: public
+=== STATION: 49.6 kWp (80 x 620 W, 216 m2), 93.2 kWh LFP (333 V), EV 222 kWh/day ===
+Cell-temperature model calibrated to NOCT: h_free = 5.55 W/m2K
+
+--- Jodhpur (PVGIS-ERA5 2023 mean) ---
+POA irradiation 1598 kWh/m2 | mean Ta 25.9 C | energy-weighted Tc 38.1 C (max 59.4)
+Specific yield 1450 kWh/kWp | PR 0.863 | low-light loss 2.4 % | temperature loss 3.8 %
+Sunlight exergy content 0.848 (diffuse share 32.8 %) | psi_PV by season [24.53 24.07 25.08 24.44]
+eta_PV 20.83 % | psi_PV 24.56 % | eta_solar 19.39 % | psi_solar 22.87 % | psi_sys 28.5 %
+SCR direct 47.2 % | SCR total 71.8 % | grid dependency 28.2 % | export 8829 kWh
+Ex destroyed [kWh/yr]: PV 220876 (opt 37430, heat 5574, internal 177873) | wiring 1438 | inverter 2114 | PCS 1253 | battery 142
+Battery: 220 EFC/yr, SOH after 1 yr 0.9892, max Tb rise 7.6 K
+LCOE 9.28 INR/kWh vs tariff 6.00 | NPV -25.2 lakh | payback 23.7 yr | CO2 avoided 47.6 t/yr
+PV-only: LCOE 4.52 INR/kWh | NPV 1.1 lakh | payback 9.6 yr | SCR 47.2 %
+  2023: POA 1598 | SCR 71.8 % | psi_PV 24.56 % | NPV -25.2 lakh
+  EV profile (SCR %): [71.8 70.1 58.8 76.7]
+
+--- Bengaluru (PVGIS-ERA5 2023 mean) ---
+POA irradiation 1774 kWh/m2 | mean Ta 23.2 C | energy-weighted Tc 35.2 C (max 52.7)
+Specific yield 1627 kWh/kWp | PR 0.872 | low-light loss 1.9 % | temperature loss 3.0 %
+Sunlight exergy content 0.846 (diffuse share 34.8 %) | psi_PV by season [24.88 24.14 25.44 25.33]
+eta_PV 21.06 % | psi_PV 24.89 % | eta_solar 19.60 % | psi_solar 23.16 % | psi_sys 27.4 %
+SCR direct 48.3 % | SCR total 76.6 % | grid dependency 23.4 % | export 13057 kWh
+Ex destroyed [kWh/yr]: PV 243626 (opt 42216, heat 6915, internal 194495) | wiring 1614 | inverter 2373 | PCS 1446 | battery 182
+Battery: 254 EFC/yr, SOH after 1 yr 0.9898, max Tb rise 5.7 K
+LCOE 8.27 INR/kWh vs tariff 4.50 | NPV -31.0 lakh | payback Inf yr | CO2 avoided 53.4 t/yr
+PV-only: LCOE 4.03 INR/kWh | NPV -2.0 lakh | payback 10.9 yr | SCR 48.3 %
+  2023: POA 1774 | SCR 76.6 % | psi_PV 24.89 % | NPV -31.0 lakh
+  EV profile (SCR %): [76.6 73.9 60 84.6]
+
+--- Guwahati (PVGIS-ERA5 2023 mean) ---
+POA irradiation 1300 kWh/m2 | mean Ta 24.2 C | energy-weighted Tc 35.4 C (max 52.4)
+Specific yield 1171 kWh/kWp | PR 0.856 | low-light loss 3.6 % | temperature loss 3.0 %
+Sunlight exergy content 0.829 (diffuse share 41.2 %) | psi_PV by season [24.89 24.63 25.28 24.93]
+eta_PV 20.67 % | psi_PV 24.94 % | eta_solar 19.27 % | psi_solar 23.25 % | psi_sys 32.3 %
+SCR direct 42.9 % | SCR total 61.7 % | grid dependency 38.3 % | export 4166 kWh
+Ex destroyed [kWh/yr]: PV 174726 (opt 30495, heat 4509, internal 139722) | wiring 1161 | inverter 1707 | PCS 960 | battery 97
+Battery: 169 EFC/yr, SOH after 1 yr 0.9927, max Tb rise 5.3 K
+LCOE 11.47 INR/kWh vs tariff 8.72 | NPV -17.7 lakh | payback 18.8 yr | CO2 avoided 38.5 t/yr
+PV-only: LCOE 5.60 INR/kWh | NPV 5.7 lakh | payback 8.3 yr | SCR 42.9 %
+  2023: POA 1300 | SCR 61.7 % | psi_PV 24.94 % | NPV -17.7 lakh
+  EV profile (SCR %): [61.7 59.8 52.5 65.5]
+
+Done. Tables in /home/claude/final/results/ERA5, figures in /home/claude/final/figures/ERA5.

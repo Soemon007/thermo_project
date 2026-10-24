@@ -1,0 +1,23 @@
+city,metric,P5,P50,P95
+Jodhpur,SCR_total_pct,78.7478,79.9170,81.2414
+Jodhpur,psi_PV_pct,24.1439,24.9083,25.5486
+Jodhpur,LCOE_INR_kWh,6.7795,7.5489,8.4132
+Jodhpur,NPV_lakh,-26.8702,-20.6493,-14.8406
+Jodhpur,P(psi_PV monsoon > winter),1.000,,
+Jodhpur,P(NPV > 0),0.000,,
+Bengaluru,SCR_total_pct,71.4667,74.3053,78.0113
+Bengaluru,psi_PV_pct,25.2393,26.0221,26.6923
+Bengaluru,LCOE_INR_kWh,7.7706,8.9196,10.2004
+Bengaluru,NPV_lakh,-42.1763,-35.3464,-29.5520
+Bengaluru,P(psi_PV monsoon > winter),1.000,,
+Bengaluru,P(NPV > 0),0.000,,
+Guwahati,SCR_total_pct,67.3788,70.7818,73.1516
+Guwahati,psi_PV_pct,24.9157,25.6607,26.2648
+Guwahati,LCOE_INR_kWh,8.3344,9.4478,10.6310
+Guwahati,NPV_lakh,-19.0465,-12.6217,-6.2985
+Guwahati,P(psi_PV monsoon > winter),1.000,,
+Guwahati,P(NPV > 0),0.000,,
+all,P(coverage Jodhpur > Bengaluru > Guwahati),1.000,,
+all,P(psi_PV Jodhpur < Bengaluru),1.000,,
+all,P(psi_PV Jodhpur < Guwahati),1.000,,
+all,P(Guwahati has the best NPV),1.000,,

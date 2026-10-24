@@ -1,0 +1,55 @@
+city,factor,value,SCR_total,metric2_name,metric2,metric3_name,metric3
+Jodhpur,PV kWp,24.8,0.43219,psi_solar,0.21792,export_fraction,-0.00000
+Jodhpur,PV kWp,37.2,0.64042,psi_solar,0.21596,export_fraction,0.00280
+Jodhpur,PV kWp,49.6,0.78444,psi_solar,0.21502,export_fraction,0.07861
+Jodhpur,PV kWp,62.0,0.86958,psi_solar,0.21488,export_fraction,0.18046
+Jodhpur,PV kWp,74.4,0.91671,psi_solar,0.21509,export_fraction,0.27909
+Jodhpur,Battery kWh,0.0,0.59322,psi_solar,0.21832,export_kWh,22027.6
+Jodhpur,Battery kWh,46.6,0.72021,psi_solar,0.21602,export_kWh,11017.3
+Jodhpur,Battery kWh,93.2,0.78444,psi_solar,0.21502,export_kWh,5510.2
+Jodhpur,Battery kWh,139.8,0.78895,psi_solar,0.21504,export_kWh,5169.0
+Jodhpur,Battery kWh,186.4,0.79148,psi_solar,0.21504,export_kWh,4984.4
+Jodhpur,Irradiance scale,0.80,0.67805,psi_PV,0.23094,specific_yield,1195.9
+Jodhpur,Irradiance scale,0.90,0.73615,psi_PV,0.23030,specific_yield,1341.7
+Jodhpur,Irradiance scale,1.00,0.78444,psi_PV,0.22967,specific_yield,1486.7
+Jodhpur,Irradiance scale,1.10,0.82426,psi_PV,0.22903,specific_yield,1630.8
+Jodhpur,Irradiance scale,1.20,0.85524,psi_PV,0.22840,specific_yield,1774.2
+Jodhpur,Irradiance scale,1.30,0.87969,psi_PV,0.22777,specific_yield,1916.7
+Jodhpur,Tc model NOCT vs balance,0,NaN,yield_change_pct,-2.154,Tc_noct_minus_balance,7.088
+Jodhpur,Battery R x3,3,0.78351,Ex_dest_batt_kWh,256.1,Ex_dest_batt_base_kWh,85.0
+Bengaluru,PV kWp,24.8,0.48214,psi_solar,0.21880,export_fraction,-0.00000
+Bengaluru,PV kWp,37.2,0.71297,psi_solar,0.21640,export_fraction,0.00288
+Bengaluru,PV kWp,49.6,0.86195,psi_solar,0.21556,export_fraction,0.09060
+Bengaluru,PV kWp,62.0,0.92758,psi_solar,0.21585,export_fraction,0.21565
+Bengaluru,PV kWp,74.4,0.95839,psi_solar,0.21631,export_fraction,0.32445
+Bengaluru,Battery kWh,0.0,0.61207,psi_solar,0.21948,export_kWh,28708.8
+Bengaluru,Battery kWh,46.6,0.75823,psi_solar,0.21705,export_kWh,16016.1
+Bengaluru,Battery kWh,93.2,0.86195,psi_solar,0.21556,export_kWh,7094.1
+Bengaluru,Battery kWh,139.8,0.87521,psi_solar,0.21547,export_kWh,6009.1
+Bengaluru,Battery kWh,186.4,0.87721,psi_solar,0.21551,export_kWh,5878.3
+Bengaluru,Irradiance scale,0.80,0.75596,psi_PV,0.23229,specific_yield,1336.7
+Bengaluru,Irradiance scale,0.90,0.81647,psi_PV,0.23159,specific_yield,1499.2
+Bengaluru,Irradiance scale,1.00,0.86195,psi_PV,0.23089,specific_yield,1660.8
+Bengaluru,Irradiance scale,1.10,0.89420,psi_PV,0.23019,specific_yield,1821.3
+Bengaluru,Irradiance scale,1.20,0.91763,psi_PV,0.22948,specific_yield,1980.8
+Bengaluru,Irradiance scale,1.30,0.93455,psi_PV,0.22879,specific_yield,2139.3
+Bengaluru,Tc model NOCT vs balance,0,NaN,yield_change_pct,-2.291,Tc_noct_minus_balance,7.635
+Bengaluru,Battery R x3,3,0.86064,Ex_dest_batt_kWh,379.3,Ex_dest_batt_base_kWh,126.0
+Guwahati,PV kWp,24.8,0.35392,psi_solar,0.21915,export_fraction,-0.00000
+Guwahati,PV kWp,37.2,0.52750,psi_solar,0.21786,export_fraction,-0.00000
+Guwahati,PV kWp,49.6,0.67940,psi_solar,0.21652,export_fraction,0.02754
+Guwahati,PV kWp,62.0,0.78738,psi_solar,0.21593,export_fraction,0.09469
+Guwahati,PV kWp,74.4,0.86095,psi_solar,0.21582,export_fraction,0.17318
+Guwahati,Battery kWh,0.0,0.54847,psi_solar,0.21928,export_kWh,12870.8
+Guwahati,Battery kWh,46.6,0.64342,psi_solar,0.21714,export_kWh,4636.8
+Guwahati,Battery kWh,93.2,0.67940,psi_solar,0.21652,export_kWh,1578.4
+Guwahati,Battery kWh,139.8,0.68441,psi_solar,0.21649,export_kWh,1183.6
+Guwahati,Battery kWh,186.4,0.68670,psi_solar,0.21648,export_kWh,1014.3
+Guwahati,Irradiance scale,0.80,0.56448,psi_PV,0.23199,specific_yield,978.0
+Guwahati,Irradiance scale,0.90,0.62645,psi_PV,0.23133,specific_yield,1097.1
+Guwahati,Irradiance scale,1.00,0.67940,psi_PV,0.23067,specific_yield,1215.6
+Guwahati,Irradiance scale,1.10,0.72600,psi_PV,0.23001,specific_yield,1333.3
+Guwahati,Irradiance scale,1.20,0.76680,psi_PV,0.22936,specific_yield,1450.4
+Guwahati,Irradiance scale,1.30,0.80190,psi_PV,0.22870,specific_yield,1566.7
+Guwahati,Tc model NOCT vs balance,0,NaN,yield_change_pct,-1.427,Tc_noct_minus_balance,4.756
+Guwahati,Battery R x3,3,0.67861,Ex_dest_batt_kWh,160.6,Ex_dest_batt_base_kWh,53.5

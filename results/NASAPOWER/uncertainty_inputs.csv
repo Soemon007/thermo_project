@@ -1,0 +1,8 @@
+input,low,high,justification
+G_scale,0.93,1.07,"NASA POWER GHI: ~0 % network bias vs BSRN, +/-7 % kept for the 1 deg grid cell and Hay-Davies transposition"
+eta_ref,0.97,1.03,"Trina NE19R datasheet: Pmax measuring tolerance +/-3 % (multiplier on eta_ref)"
+NOCT,41,45,"Trina NE19R datasheet: NOCT 43 +/- 2 degC (h_free recalibrated each draw)"
+nu_conv,0.96,0.98,"Project brief: inverter and PCS efficiency 96-98 % (each drawn separately)"
+cell_R,0.0003,0.0009,"REPT: 0.30 mOhm AC (1 kHz); DC resistance 2-3x AC, so 0.30-0.90 mOhm"
+batt_price,16000,25000,"C&I LFP quotes INR 16-25k/kWh installed (economics only)"
+weather_year,2021,2023,"one of the NASA POWER years, equal probability"

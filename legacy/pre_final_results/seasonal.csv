@@ -1,0 +1,13 @@
+city,season,G_kWh_m2_day,eta_PV,psi_PV,SCR_total,grid_dependency
+Jodhpur,Winter (DJF),2.790,0.22075,0.23695,0.56538,0.43462
+Jodhpur,Pre-monsoon (MAM),5.980,0.21073,0.22672,0.96935,0.03065
+Jodhpur,Monsoon (JJAS),4.863,0.21229,0.22835,0.86939,0.13061
+Jodhpur,Post-monsoon (ON),3.329,0.21625,0.23246,0.65886,0.34114
+Bengaluru,Winter (DJF),4.055,0.21881,0.23497,0.77918,0.22082
+Bengaluru,Pre-monsoon (MAM),6.141,0.21170,0.22754,0.97365,0.02635
+Bengaluru,Monsoon (JJAS),4.951,0.21456,0.23047,0.88828,0.11172
+Bengaluru,Post-monsoon (ON),3.929,0.21751,0.23362,0.76294,0.23706
+Guwahati,Winter (DJF),2.462,0.22091,0.23707,0.50189,0.49811
+Guwahati,Pre-monsoon (MAM),4.867,0.21307,0.22900,0.88741,0.11259
+Guwahati,Monsoon (JJAS),3.800,0.21217,0.22811,0.72011,0.27989
+Guwahati,Post-monsoon (ON),2.733,0.21764,0.23380,0.54618,0.45382
